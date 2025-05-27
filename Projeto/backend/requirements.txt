@@ -1,0 +1,41 @@
+# Python Version Requirement: 3.11.9 (IDEAL para TTS compatibility!)
+# Python 3.11.9 já está instalado e oferece máxima compatibilidade com TODOS TTS engines
+
+# Core FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+websockets==12.0
+
+# AI and ML dependencies
+faster-whisper>=0.10.0
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# HTTP and utility dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+ollama>=0.1.7
+pydantic>=2.5.0
+aiofiles>=23.2.0
+
+# TTS Engines (Compatible with Python 3.11.9)
+pyttsx3>=2.90
+TTS>=0.22.0  # Coqui TTS - Múltiplas vozes neurais
+
+# Additional TTS Engines (install manually if needed):
+# pip install git+https://github.com/nari-labs/dia.git  # Dias TTS
+
+# Recommended Ollama Models:
+# ollama pull gemma2:2b     # Fast, lightweight (already installed)
+# ollama pull llama3.2:3b   # Balanced quality/speed
+# ollama pull qwen2.5:3b    # Good for teaching
+# ollama pull qwen2.5:7b    # Advanced features
+# ollama pull llama3.1:8b   # Premium quality
+
+# Note: Python 3.11.9 provides maximum compatibility with ALL TTS engines
+# Including: Coqui TTS, Dias TTS, pyttsx3, and other neural TTS models

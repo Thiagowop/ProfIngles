@@ -1,0 +1,84 @@
+# ==============================================
+# GITIGNORE PARA ENGLISH TEACHER VOICE CHATBOT
+# ==============================================
+
+# Arquivos temporários com nome estranho
+ersThiagoDesktopProjetoProjeto*
+
+# Ambientes virtuais Python
+venv/
+venv_optimized/
+ENV/
+env/
+.venv/
+**/venv/
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+Projeto/frontend/node_modules/
+
+# Cache e arquivos compilados
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+**/.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Builds e distribuições
+build/
+dist/
+*.egg-info/
+
+# Arquivos temporários e sistema
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*~
+*.bak
+*.old
+*.orig
+
+# Uploads e mídia temporária
+uploads/
+tmp/
+*.wav
+
+# Backups
+backup/
+modulos/
+
+# Configurações locais
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Package locks (opcional)
+package-lock.json
+yarn.lock
+
+# Scripts PowerShell temporários
+*.ps1
+!start_full_app.ps1
+
+# Large model files
+*.onnx
+*.bin
+*.pt
+*.pth
+models/kokoro/*.onnx
+models/*/model
+models/*/*/model
